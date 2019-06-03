@@ -5,3 +5,6 @@ print('{0:>10}| {1:<20}| {2:^15.2f}'.format(
     '01', 'Frist Product', 5.9878989987979))
 print('{0:>10}| {1:<20}| {2:^15}'.format('02', 'Second Product', '15'))
 print('{0:>10}| {1:<20}| {2:^15}'.format('03', 'Third Product', '8'))
+
+magentoVersion = input('Currunt magento version that I use is: ')
+print('{} is the current magento version that you use'.format(magentoVersion))
