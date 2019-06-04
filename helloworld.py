@@ -6,5 +6,10 @@ print('{0:>10}| {1:<20}| {2:^15.2f}'.format(
 print('{0:>10}| {1:<20}| {2:^15}'.format('02', 'Second Product', '15'))
 print('{0:>10}| {1:<20}| {2:^15}'.format('03', 'Third Product', '8'))
 
+# Read the user's input
+"""
+Here is the way to read user input 
+then print it in terminal
+"""
 magentoVersion = input('Currunt magento version that I use is: ')
 print('{} is the current magento version that you use'.format(magentoVersion))
