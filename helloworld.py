@@ -13,3 +13,12 @@ then print it in terminal
 """
 magentoVersion = input('Currunt magento version that I use is: ')
 print('{} is the current magento version that you use'.format(magentoVersion))
+
+# Function defination
+
+
+def showProductName():
+    print('New Marimekko dress')
+
+
+showProductName()
